@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express()
 
-app.get('/', (req, res) => {
+app.get('/Hola', (req, res) => {
     res.json({ ok: true })
 
 })
