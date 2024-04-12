@@ -59,7 +59,29 @@ export const services = [
 `$ npm init -y`
  ```
 
-
 ```Instala express
 `$ npm install express`
  ```
+
+ ```Instala express-handlebars
+`$ npm install express-handlebars`
+ ```
+
+ 2. Crear archivo `.gitignore`
+
+ 3. Crear carpetas `views` y dentro de ella se crea otra carpeta `layouts`
+
+.
+├── app.js
+└── views
+    ├── home.handlebars
+    └── layouts
+        └── main.handlebars
+
+Cada una contendra su propio archivo, tal cual muestra la imagen.
+
+Acceder a las carpetas
+
+node_modules\bootstrap\dist\css\bootstrap.min.css
+node_modules\bootstrap\dist\js\bootstrap.min.js
+node_modules\jquery\dist\jquery.min.js
